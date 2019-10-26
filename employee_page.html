@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/employee_page.css">
+        <script src="js/jquery.js"></script>
+        <script src="js/employee_page.js"></script>
+        <script src="#"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+</head>
+<body>
+        <div class="heading bg-image">
+                <h1>Employee Records</h1>
+
+                <div>
+                        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+                                <div class="collapse navbar-collapse float-right" id="navbarNavAltMarkup">
+                                  <div class="navbar-nav">
+                                    <a class="nav-item nav-link active" href="#" id="raj"><strong>New Employee</strong></a>
+                                    <a class="nav-item nav-link" href="pHistory.html"><strong> Payment History</strong></a>
+                                    <a class="nav-item nav-link" href="#"></a>
+                                    <a class="nav-item nav-link " href="index.html"><strong>Sign Out</strong></a>
+                                  </div>
+                                </div>
+                              </nav>
+                </div>
+        </div>
+
+    
+
+    <div>
+            <table class="table table-hover">
+                    <thead class="thead-dark">
+                            <th style="width: 100px">Employee ID</th>
+                            <th style="width: 100px">First Name</th>
+                            <th style="width: 100px">Last Name</th>
+                            <th style="width: 100px">Department</th>
+                            <th style="width: 100px">Level</th>
+                            <th style="width: 100px">Payment Status</th>
+                            <th style="width: 100px"></th>
+                            <th style="width: 100px"></th>
+                            
+                        </thead>
+                        <tbody id='tbody'>
+            
+                        </tbody>
+            </table>
+            <button type="button" class="btn btn-primary font-weight-bold payEmp" id="payAll">Pay All</button>
+    </div>
+
+
+    <script src="https://js.paystack.co/v1/inline.js"></script>
+    <script src=""></script>
+
+        <script src="https://www.paypal.com/sdk/js?client-id=sb"></script>
+    <script>paypal.Buttons().render('body');</script>
+
+    <!-- <script
+    src="https://www.paypal.com/sdk/js?client-id=AaFLYbRwpoMdufMA2YMl1mWF9rpCAc0JP0uTL15BhFGKFZnPVqHzWeTBmBbfT5gt1SU6647x9rU7xsxT&">
+ </script>
+
+  <div id="body"></div>
+
+  <script>
+    paypal.Buttons().render('#body');
+  </script> -->
+  <script src="js/pay.js"></script>
+</body>
+</html>
