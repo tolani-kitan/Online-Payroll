@@ -1,0 +1,167 @@
+{
+  "users": [
+    {
+      "first_Name": "Dolapo",
+      "last_Name": "Adeleye",
+      "gender": "male",
+      "age": "34",
+      "email": "dollyp@gmail.com",
+      "address": "Ejigbo",
+      "city": "Lagos",
+      "department": "Accounting",
+      "level": "3",
+      "Status": "Last Paid On: Sat Oct 26 2019 06:06:32",
+      "salary": "2800000",
+      "id": 1
+    },
+    {
+      "first_Name": "Pelumi",
+      "last_Name": "Ibiyemi",
+      "gender": "female",
+      "age": "45",
+      "email": "pelumi@gmail.com",
+      "address": "Bariga",
+      "city": "Lagos",
+      "department": "IT",
+      "level": "4",
+      "Status": "Last Paid On: Sat Oct 26 2019 06:06:32",
+      "salary": "3900000",
+      "id": 5
+    },
+    {
+      "first_Name": "Olushola",
+      "last_Name": "Adewusi",
+      "gender": "female",
+      "age": "29",
+      "email": "olushola@gmail.com",
+      "address": "Lagos Island",
+      "city": "Lagos",
+      "department": "Human Resources",
+      "level": "2",
+      "Status": "Last Paid On: Sat Oct 26 2019 06:06:32",
+      "salary": "900000",
+      "id": 6
+    },
+    {
+      "first_Name": "Timothy ",
+      "last_Name": "Williams",
+      "gender": "male",
+      "age": "34",
+      "email": "timwilliams@patriot.com",
+      "address": "Gbagada",
+      "city": "Lagos",
+      "department": "Procurement",
+      "level": "3",
+      "Status": "Last Paid On: Sat Oct 26 2019 06:06:32",
+      "salary": "1000000",
+      "id": 7
+    },
+    {
+      "first_Name": "Adebola",
+      "last_Name": "Peters",
+      "gender": "female",
+      "age": "26",
+      "email": "peters@patriot.com",
+      "address": "Ojota",
+      "city": "Lagos",
+      "department": "Human Resources",
+      "level": "1",
+      "Status": "Last Paid On: Sat Oct 26 2019 06:06:32",
+      "salary": "300000",
+      "id": 8
+    },
+    {
+      "first_Name": "Simbiat",
+      "last_Name": "Haruna",
+      "gender": "female",
+      "age": "27",
+      "email": "simbi@patriort.com",
+      "address": "Pangroove",
+      "city": "Lagos",
+      "department": "IT",
+      "level": "1",
+      "Status": "Last Paid On: Sat Oct 26 2019 06:06:32",
+      "salary": "400000",
+      "id": 9
+    },
+    {
+      "first_Name": "Jokotola",
+      "last_Name": "Odusami",
+      "gender": "fe",
+      "age": "26",
+      "email": "oduns@patriot.com",
+      "address": "University road, Akoka",
+      "city": "Lagos",
+      "department": "Procurement",
+      "level": "1",
+      "Status": "Last Paid On: Sat Oct 26 2019 06:06:32",
+      "salary": "400000",
+      "id": 10
+    },
+    {
+      "first_Name": "Udah",
+      "last_Name": "Oshioma",
+      "gender": "male",
+      "age": "35",
+      "email": "Udah@patriot.com",
+      "address": "Ketu Alapere",
+      "city": "Lagos",
+      "department": "Accounting",
+      "level": "3",
+      "Status": "Last Paid On: Sat Oct 26 2019 06:06:32",
+      "salary": "600000",
+      "id": 11
+    },
+    {
+      "first_Name": "Mosope",
+      "last_Name": "Aina",
+      "gender": "female",
+      "age": "33",
+      "email": "mosope@patriot.com",
+      "address": "Ketu Tipper",
+      "city": "Lagos",
+      "department": "Accounting",
+      "level": "2",
+      "Status": "Last Paid On: Sat Oct 26 2019 06:06:32",
+      "salary": "450000",
+      "id": 12
+    }
+  ],
+  "payRoll": [
+    {
+      "id": 1,
+      "levelID": "1",
+      "Amount": 100000
+    },
+    {
+      "id": 2,
+      "levelID": "2",
+      "Amount": 150000
+    },
+    {
+      "id": 3,
+      "levelID": "3",
+      "Amount": 200000
+    },
+    {
+      "id": 4,
+      "levelID": "4",
+      "Amount": 300000
+    },
+    {
+      "id": 5,
+      "levelID": "5",
+      "Amount": 350000
+    }
+  ],
+  "admin": [
+    {
+      "name": "tolani",
+      "email": "tolani@gmail.com",
+      "password": "morenike"
+    }
+  ],
+  "salary": [
+    {}
+  ]
+}
