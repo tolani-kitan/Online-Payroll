@@ -1,0 +1,23 @@
+.bg-image {
+    background-color: #1a75ff;
+  }
+
+  h1{
+    height: 60px;
+    color: white;
+    top: 0;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  .nav-float{
+      float: right;
+  }
+  body{
+      background-color: #b3d1ff;
+  }
+  
+  .heading{
+    text-align: center;
+
+  }
